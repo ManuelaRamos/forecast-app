@@ -1,7 +1,8 @@
 function displayWeather(response) {
+  console.log(response.data);
   let temperatureElement = document.querySelector(".temperature");
   let cityElement = document.querySelector("h3");
-  let iconElement = document.querySelector("h4");
+  let iconElement = document.querySelector("#icon");
   let descriptionElement = document.querySelector(".description");
   
   temperatureElement.innerHTML = Math.round(response.data.main.temp);
