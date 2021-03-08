@@ -23,7 +23,7 @@ function search(city) {
 
 function pickCity(event) {
   event.preventDefault();
-  let cityInput = document.querySelector("#info-form.value");
+  let cityInput = document.querySelector("#info-form");
   search(cityInput.value);
 }
 
