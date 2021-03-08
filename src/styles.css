@@ -27,10 +27,36 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  text-align: center;
+  color: #ffffff;
+}
+
+strong {
+  display: block;
+  margin-top: -55px;
+  margin-bottom: 60px;
+  color: #ffffff;
+  font-size: 90px;
+  text-align: center;
+}
+
 small {
   display: block;
   text-align: center;
   margin-top: -30px;
+}
+
+.units {
+  position: relative;
+  left: 350px;
+  top: -160px;
+  color: #ffffff;
+}
+
+.units a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .container {
@@ -59,15 +85,6 @@ small {
   font-size: 70px;
   text-align: center;
   text-transform: capitalize;
-}
-
-.temperature {
-  margin-top: -55px;
-  margin-bottom: 60px;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 90px;
-  text-align: center;
 }
 
 .units {
